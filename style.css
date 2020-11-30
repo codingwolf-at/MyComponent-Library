@@ -3,6 +3,8 @@
 :root {
     --primary-color: #4B5563;
     --dark-gray: #374151;
+    --off-white: #F3F4F6;
+    --off-white2: #E5E7EB;
 }
 
 body {
@@ -62,6 +64,7 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
+    font-size: 2em;
 }
 
 .navigation .nav-pills {
@@ -98,7 +101,31 @@ hr {
 }
 
 /* sections */
+.section {
+    padding: 2rem;
+}
 .section h1 {
     text-align: center;
-    padding: 2rem;
+}
+
+.ow {
+    background-color: var(--off-white2);
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
